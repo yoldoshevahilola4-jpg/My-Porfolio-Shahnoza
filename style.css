@@ -1,0 +1,78 @@
+ 
+ /* Umumiy sozlamalar */
+html {
+    scroll-behavior: smooth; /* Sahifa bo'limlariga silliq o'tish */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Navigatsiya paneli */
+.custom-navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Hero Section (Asosiy banner) */
+.hero-section {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    height: 80vh;
+    min-height: 450px;
+}
+
+/* Maxsus tugma */
+.btn-custom {
+    background-color: #ffcc00;
+    color: #1e3c72;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 12px 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #ffffff;
+    color: #1e3c72;
+    transform: translateY(-3px);
+}
+
+/* Sarlavhalar stili */
+.section-title {
+    font-weight: 700;
+    color: #1e3c72;
+    position: relative;
+}
+
+/* Texnologiyalar kartochkalari */
+.skill-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.skill-card i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.text-purple {
+    color: #563d7c; /* Bootstrap binafsha rangi */
+}
+
+/* Loyihalar kartochkalari */
+.project-card {
+    transition: transform 0.3s ease;
+    border: none !important;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
