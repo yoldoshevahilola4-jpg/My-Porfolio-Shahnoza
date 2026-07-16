@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Portfoliom</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <!-- FontAwesome Ikonkalari -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <!-- Sizning maxsus CSS faylingiz -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigatsiya (Header) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Dasturchi Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#about">Men haqimda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Loyihalarim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Aloqa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Asosiy qism (Hero Section) -->
+    <header class="hero-section text-center text-white d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3 animate-fade">Salom, Men [Ismingiz]</h1>
+            <p class="lead mb-4">HTML, CSS, Bootstrap va Tilda bo'yicha Frontend Dasturchi</p>
+            <a href="#projects" class="btn btn-custom btn-lg shadow">Loyihalarni ko'rish</a>
+        </div>
+    </header>
+
+    <!-- Men haqimda va Ko'nikmalar -->
+    <section id="about" class="container my-5 py-5">
+        <div class="row g-5">
+            <div class="col-md-6">
+                <h2 class="section-title mb-4"><i class="fas fa-user-circle me-2"></i>Men haqimda</h2>
+                <p class="text-secondary lh-lg">Men zamonaviy va adaptiv veb-saytlar yarataman. VS Code kodlash muhiti va Git versiya boshqaruv tizimi bilan doimiy ishlayman.</p>
+                <p class="text-secondary lh-lg">Tildada tezkor biznes va landing sahifalar, Bootstrapda esa noodatiy hamda moslashuvchan loyihalarni sifatli qilib tayyorlayman.</p>
+            </div>
+            <div class="col-md-6">
+                <h2 class="section-title mb-4"><i class="fas fa-code me-2"></i>Texnologiyalarim</h2>
+                <div class="row text-center g-4">
+                    <div class="col-6 col-sm-4"><div class="skill-card"><i class="fab fa-html5 text-danger"></i><p>HTML5</p></div></div>
+                    <div class="col-6 col-sm-4"><div class="skill-card"><i class="fab fa-css3-alt text-primary"></i><p>CSS3</p></div></div>
+                    <div class="col-6 col-sm-4"><div class="skill-card"><i class="fab fa-bootstrap text-purple"></i><p>Bootstrap</p></div></div>
+                    <div class="col-6 col-sm-4"><div class="skill-card"><i class="fab fa-git-alt text-warning"></i><p>Git</p></div></div>
+                    <div class="col-6 col-sm-4"><div class="skill-card"><i class="fab fa-github text-dark"></i><p>GitHub</p></div></div>
+                    <div class="col-6 col-sm-4"><div class="skill-card"><i class="fas fa-cubes text-info"></i><p>Tilda</p></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loyihalar Bo'limi -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container py-4">
+            <h2 class="text-center section-title mb-5">Mening Loyihalarim</h2>
+            <div class="row g-4">
+                <!-- 1-Loyiha -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="https://placeholder.com" class="card-img-top" alt="Loyiha">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Klinika Sayti</h5>
+                            <p class="card-text text-secondary">Bootstrap grid va komponentlari asosida mukammal kodlangan tibbiyot sayti.</p>
+                            <span class="badge bg-primary">Bootstrap</span>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3">
+                            <a href="#" class="btn btn-outline-dark btn-sm"><i class="fab fa-github me-1"></i> Kodlar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2-Loyiha -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="https://placeholder.com" class="card-img-top" alt="Loyiha">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Landing Page</h5>
+                            <p class="card-text text-secondary">Tilda platformasida Zero Block yordamida yaratilgan kreativ korporativ sayt.</p>
+                            <span class="badge bg-danger">Tilda CC</span>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3">
+                            <a href="#" class="btn btn-danger btn-sm"><i class="fas fa-external-link-alt me-1"></i> Saytni ko'rish</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3-Loyiha -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="https://placeholder.com" class="card-img-top" alt="Loyiha">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Shaxsiy Blog</h5>
+                            <p class="card-text text-secondary">HTML va CSS yordamida noldan yozilgan, qulay navigatsiyaga ega blog maketi.</p>
+                            <span class="badge bg-dark">HTML / CSS</span>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3">
+                            <a href="#" class="btn btn-outline-dark btn-sm"><i class="fab fa-github me-1"></i> Kodlar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aloqa Bo'limi -->
+    <section id="contact" class="container my-5 py-5 text-center">
+        <h2 class="section-title mb-4">Men bilan bog'lanish</h2>
+        <p class="text-secondary mb-4">Siz bilan loyihalar ustida ishlashdan mamnun bo'laman!</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="#" class="btn btn-info text-white btn-lg px-4 shadow-sm"><i class="fab fa-telegram me-2"></i>Telegram</a>
+            <a href="#" class="btn btn-dark btn-lg px-4 shadow-sm"><i class="fab fa-github me-2"></i>GitHub</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">© 2026 [Ismingiz]. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
